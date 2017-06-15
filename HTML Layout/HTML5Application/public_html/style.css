@@ -1,0 +1,122 @@
+html {
+    /*position: relative;*/
+    /*height: 100%;*/
+    /*border: 1px solid;*/
+}
+
+body {
+    /*margin: 0 0 100px;*/
+    /*height: 100%;*/
+}
+
+div {
+    border: 2px solid rgb(105,93,70);
+    /*rgb(105,93,70)*/
+}
+
+.content-wrapper {
+    height: 100%;
+    text-align: center;
+}
+
+.header {
+    height: 100px;
+    background-color: rgb(255,229,153); 
+}
+
+#logo {
+    height: 75px;
+    width: -10px;
+    margin-left: 50px;
+}
+
+.header h1 {
+    margin: -50px 0px 0px 0px;
+    text-align: center;
+}
+
+
+.content-wrapper .menu {
+    background-color: rgb(182,215,168);
+    width: calc(50% - 4px);
+    width: -moz-calc(50% - 4px);
+    width: -webkit-calc(50% - 4px);
+    height: 120px;
+    line-height: 120px;
+    float: left;
+    clear: both;
+}
+
+.content-wrapper .important-zone {
+    width: calc(50% - 4px);
+    width: -moz-calc(50% - 4px);
+    width: -webkit-calc(50% - 4px);
+    background-color: rgb(234,153,153);
+    height: 120px;
+    line-height: 120px;
+    float: right;
+    clear: right;
+}
+
+.content-wrapper .contact-info {
+    height: 500px;
+    line-height: 500px;
+    float: left;
+    border-bottom: 4px solid rgb(105,93,70);
+    width: calc(23% - 4px);
+    width: -moz-calc(23% - 4px);
+    width: -webkit-calc(23% - 4px);
+    background-color: rgb(217,234,211);
+}
+
+.content-wrapper .contact-info h1, .second-content h1 {
+    -webkit-transform: rotate(270deg);	
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    /*display: block;*/
+}
+
+.content-wrapper .beadcrumb {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    width: calc(77% - 10px);
+    width: -moz-calc(77% - 4px);
+    width: -webkit-calc(77% - 4px);
+    background-color: rgb(255,229,153);
+}
+
+.content-wrapper .content {
+    float: left;
+    height: 398px;
+    line-height: 398px;
+    width: calc(54% - 4px);
+    width: -moz-calc(54% - 4px);
+    width: -webkit-calc(54% - 4px);
+    background-color: rgb(179,167,125);
+}
+
+.content-wrapper .content h1 {
+    margin: 0 auto;
+}
+
+.content-wrapper .second-content {
+    float: right;
+    width: calc(23% - 4px);
+    width: -moz-calc(23% - 4px);
+    width: -webkit-calc(23% - 4px);
+    height: 396px;
+    line-height: 396px;
+    border-bottom: 4px solid rgb(105,93,70);
+    background-color: rgb(217,234,211);
+}
+
+.footer .footer1, .footer2, .footer3, .footer4 {
+    float: left;
+    width: calc(25% - 4px);
+    width: -moz-calc(25% - 4px);
+    width: -webkit-calc(25% - 4px);
+    background-color: rgb(255,229,153);
+}
